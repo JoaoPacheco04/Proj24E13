@@ -1,13 +1,37 @@
-# ♻️Waste Management 
-This repository contains the source code of a Waste Management system, developed in Java. The system was created as part of an Object Oriented Programming (OOP) project, with the objective of optimizing the management of waste collection and disposal.
+# ♻️ Waste Management System
 
-✨Main Features
- -📝Registration and management of clients.
- -📅Scheduling of waste collections.
- -🛠Generation of reports on the status of the system.
- -🛠️Waste Management: Control over the waste generated.
+A Java-based desktop application developed to streamline the lifecycle of waste collection and disposal. This project was built with a strong focus on **Object-Oriented Programming (OOP)** principles to ensure code modularity, scalability, and maintainability.
 
-🛠️Technologies Used
- -Java(Object Oriented Programming).
+## 🚀 Core Functionalities
 
- 
+- **Client Lifecycle Management:** Full CRUD operations for managing residential and commercial clients.
+- **Smart Scheduling:** Automated logic for scheduling and tracking waste collection tasks.
+- **Dynamic Reporting:** Generation of detailed reports regarding system status, collection efficiency, and waste volume.
+- **Resource Control:** Monitoring and classification of different waste types to optimize disposal routes.
+
+## 🧪 OOP Principles Applied
+
+This project serves as a practical implementation of key software engineering concepts:
+- **Encapsulation:** Ensuring data integrity through controlled access to object states.
+- **Inheritance & Polymorphism:** Optimized code reuse for different types of waste and client categories.
+- **Abstraction:** Use of interfaces or abstract classes to decouple business logic from implementation.
+- **Data Persistence:** Robust handling of data structures (Collections/Lists) for real-time system management.
+
+## 🛠️ Tech Stack
+
+- **Language:** Java (JDK 17+)
+- **Paradigm:** Object-Oriented Programming (OOP)
+- **Tools:** Developed using Eclipse/IntelliJ, managed with standard Java libraries.
+
+## 🏗️ Project Structure
+
+The source code is organized into logical packages to follow clean code practices:
+- `Projeto`: Contains the core domain models (`Cliente`, `Coletas`, `Residuos`).
+- `Logic`: Handles the business rules and report generation (`Relatorio`, `GereResiduos`).
+- `Test`: Entry point for system validation and simulation.
+
+## 🔧 Setup
+
+1. Clone the repository.
+2. Open the project in your preferred IDE.
+3. Run `Teste.java` to launch the system simulation.
